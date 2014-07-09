@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_cuHmUAebEeS-rdja2so9og" comment="connectionComment" label="connectionLabel" dataPackage="_cuINYAebEeS-rdja2so9og"/>
+  <TalendMetadata:GenericPackage xmi:id="_cuINYAebEeS-rdja2so9og" dataManager="_cuHmUAebEeS-rdja2so9og">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cuINYQebEeS-rdja2so9og" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cuINYgebEeS-rdja2so9og" name="customer_ref" id="35245" label="customer_ref" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cuINYwebEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cuINZAebEeS-rdja2so9og" name="firstName" id="35246" label="firstName" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cuINZQebEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cuINZgebEeS-rdja2so9og" name="lastName" id="35247" label="lastName" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cuINZwebEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cuINaAebEeS-rdja2so9og" name="email" id="35248" label="email" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cuINaQebEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cuINagebEeS-rdja2so9og" name="phone" id="35249" label="phone" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cuINawebEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cuINbAebEeS-rdja2so9og" name="url" id="35250" label="url" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cuINbQebEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cuINbgebEeS-rdja2so9og" name="UUID" id="35251" label="UUID" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cuINbwebEeS-rdja2so9og"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_qa47gAefEeS-rdja2so9og" comment="connectionComment" label="connectionLabel" dataPackage="_qa47gQefEeS-rdja2so9og"/>
+  <TalendMetadata:GenericPackage xmi:id="_qa47gQefEeS-rdja2so9og" dataManager="_qa47gAefEeS-rdja2so9og">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qa47ggefEeS-rdja2so9og" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47gwefEeS-rdja2so9og" name="extID" id="40327" label="extID" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_qa47hAefEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47hQefEeS-rdja2so9og" name="entityClass" id="40328" label="entityClass" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_qa47hgefEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47hwefEeS-rdja2so9og" name="type" id="40329" label="type" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_qa47iAefEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47iQefEeS-rdja2so9og" name="name" id="40330" label="name" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_qa47igefEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47iwefEeS-rdja2so9og" name="defaultValue" id="40331" label="defaultValue" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_qa47jAefEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47jQefEeS-rdja2so9og" name="options" id="40332" label="options" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_qa47jgefEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47jwefEeS-rdja2so9og" name="syncable" id="40333" label="syncable" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_qa47kAefEeS-rdja2so9og"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47kQefEeS-rdja2so9og" name="readonlyOnDevice" id="40334" label="readonlyOnDevice" sourceType="" talendType="id_Boolean">
+        <initialValue xmi:id="_qa47kgefEeS-rdja2so9og" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47kwefEeS-rdja2so9og" name="displayOnInvoice" id="40335" label="displayOnInvoice" sourceType="" talendType="id_Boolean">
+        <initialValue xmi:id="_qa47lAefEeS-rdja2so9og" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qa47lQefEeS-rdja2so9og" name="cf_json" id="40336" label="cf_json" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_qa47lgefEeS-rdja2so9og"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
