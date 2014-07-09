@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="Salesforce_WebServiceUrl" prompt="Salesforce_WebServiceUrl?" promptNeeded="false" type="id_String" value="https://cs7.salesforce.com/services/Soap/u/23.0"/>
+  <contextParameter comment="" name="Salesforce_UserName" prompt="Salesforce_UserName?" promptNeeded="false" type="id_String" value="mike.measel@fieldaware.com.dev"/>
+  <contextParameter comment="" name="Salesforce_Password" prompt="Salesforce_Password?" promptNeeded="false" type="id_Password" value="T+jCI9CwfdBkEha05jm3D/0ZU3FtVNMdAC9KfhD93/UpCMGRaoO55Q=="/>
+  <contextParameter comment="" name="Salesforce_BatchSize" prompt="Salesforce_BatchSize?" promptNeeded="false" type="id_String" value="250"/>
+  <contextParameter comment="" name="Salesforce_TimeOut" prompt="Salesforce_TimeOut?" promptNeeded="false" type="id_Integer" value="60000"/>
+  <contextParameter comment="" name="Salesforce_QueryCondition" prompt="Salesforce_QueryCondition?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter comment="" name="Salesforce_SFProxyHost" prompt="Salesforce_SFProxyHost?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter comment="" name="Salesforce_SFProxyPort" prompt="Salesforce_SFProxyPort?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter comment="" name="Salesforce_SFProxyUsername" prompt="Salesforce_SFProxyUsername?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter comment="" name="Salesforce_SFProxyPassword" prompt="Salesforce_SFProxyPassword?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

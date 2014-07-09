@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:SalesforceSchemaConnection xmi:id="_3oDMcAe3EeSYaPiRNeC7lQ" name="Salesforce" dataPackage="_3oDMcQe3EeSYaPiRNeC7lQ" ContextMode="true" ContextId="_3WcfEAe3EeSYaPiRNeC7lQ" contextName="Default" webServiceUrl="context.Salesforce_WebServiceUrl" userName="context.Salesforce_UserName" password="context.Salesforce_Password" moduleName="Account" queryCondition="context.Salesforce_QueryCondition" proxyHost="context.Salesforce_SFProxyHost" proxyPort="context.Salesforce_SFProxyPort" proxyUsername="context.Salesforce_SFProxyUsername" proxyPassword="context.Salesforce_SFProxyPassword" batchSize="context.Salesforce_BatchSize" timeOut="context.Salesforce_TimeOut" webServiceUrlTextForOAuth="https://login.salesforce.com/services/oauth2" salesforceVersion="25.0" loginType="basic"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_3oDMcQe3EeSYaPiRNeC7lQ" name="default" dataManager="_3oDMcAe3EeSYaPiRNeC7lQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3oDMcge3EeSYaPiRNeC7lQ" id="_ul2MIAe3EeSYaPiRNeC7lQ" label="metadata"/>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
