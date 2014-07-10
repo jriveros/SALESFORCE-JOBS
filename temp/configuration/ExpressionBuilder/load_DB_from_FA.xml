@@ -1,9 +1,0 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>contactDetails=>name" expression="row7.lastName + ',' + row7.firstName&#xA;">
-  <variables name="row7.uuid" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row7.extID" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row7.firstName" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row7.lastName" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row7.email" value="null" talendType="id_String" nullable="true"/>
-  <variables name="row7.phone" value="null" talendType="id_String" nullable="true"/>
-</expression:EMFExpression>
