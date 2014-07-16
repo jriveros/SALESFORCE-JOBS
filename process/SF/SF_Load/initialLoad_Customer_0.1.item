@@ -75,7 +75,7 @@
     <elementParameter field="TEXT" name="CUSTOM_MODULE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_oNOSoMDpEeOOaqNtHRdzpA - Account"/>
-    <elementParameter field="TEXT" name="CONDITION" value="context.Salesforce_QueryCondition"/>
+    <elementParameter field="TEXT" name="CONDITION" value=""/>
     <elementParameter field="CHECK" name="MANUAL_QUERY" value="false"/>
     <elementParameter field="MEMO" name="QUERY" value="&quot;select FirstName, LastName from Contact&quot;"/>
     <elementParameter field="CHECK" name="QUERY_ALL" value="false"/>
@@ -348,7 +348,7 @@
       <column key="false" length="0" name="customer_json" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="SFAccounts" expressionFilter="row2.FieldAwareID__c == null &amp; row2.BillingStreet != null &amp; row2.BillingCity != null &amp; row2.BillingState != null" activateExpressionFilter="true">
         <mapperTableEntries name="name" expression="row2.Name " type="id_String" nullable="true"/>
@@ -784,7 +784,7 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" label="Account" name="tSalesforceOutput_1">
-      <column comment="" key="false" length="18" name="Id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column key="true" length="18" name="Id" nullable="false" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="FieldAwareID__c" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="MAIN" label="Account" name="MAIN">
