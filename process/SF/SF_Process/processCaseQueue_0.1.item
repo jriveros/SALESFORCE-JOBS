@@ -156,7 +156,7 @@
       <column comment="" key="false" length="18" name="AccountId" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="updateCustRef" expressionFilter="row2.uuid != null" activateExpressionFilter="true">
         <mapperTableEntries name="Id" expression="row1.Id " type="id_String"/>
@@ -462,7 +462,7 @@
       <column comment="" key="false" length="32" name="customer_ref" nullable="true" pattern="" sourceType="VARCHAR" type="id_String" originalLength="32" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="updateContactRef" expressionFilter="row6.uuid != null" activateExpressionFilter="true">
         <mapperTableEntries name="Id" expression="row3.Id " type="id_String"/>
@@ -888,9 +888,9 @@
         <mapperTableEntries name="estDuration" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="location_UUID" expression="row7.location_ref " type="id_String" nullable="true"/>
         <mapperTableEntries name="contact_UUID" expression="row7.contact_ref " type="id_String" nullable="true"/>
-        <mapperTableEntries name="asset_UUID" expression="&quot;72c3c6af14e144da8a8e25612f0ace94&quot;" type="id_String" nullable="true"/>
-        <mapperTableEntries name="jobLead_UUID" expression="&quot;d83b66c86e954fb683eecb7b0a90f207&quot;" type="id_String" nullable="true"/>
-        <mapperTableEntries name="task_UUID" expression="null" type="id_String" nullable="true"/>
+        <mapperTableEntries name="asset_UUID" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="jobLead_UUID" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="task_UUID" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="task_note" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="task_unitCost" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="task_unitPrice" type="id_BigDecimal" nullable="true"/>
@@ -1399,7 +1399,7 @@
       <column comment="" key="false" name="location_ref" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out47" expressionFilter="row17.location_uuid != null" activateExpressionFilter="true">
         <mapperTableEntries name="Id" expression="row19.Id " type="id_String" nullable="true"/>
