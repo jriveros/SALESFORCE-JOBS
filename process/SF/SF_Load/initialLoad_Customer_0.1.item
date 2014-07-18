@@ -350,7 +350,7 @@
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="SFAccounts" expressionFilter="row2.FieldAwareID__c == null &amp; row2.BillingStreet != null &amp; row2.BillingCity != null &amp; row2.BillingState != null" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="SFAccounts" expressionFilter=" row2.BillingStreet != null &amp; row2.BillingCity != null &amp; row2.BillingState != null &amp; row2.FieldAwareID__c == null" activateExpressionFilter="true">
         <mapperTableEntries name="name" expression="row2.Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="email" expression="row2.Admin_contact_email__c " type="id_String" nullable="true"/>
         <mapperTableEntries name="phone" expression="row2.Phone " type="id_String" nullable="true"/>
@@ -652,7 +652,7 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" label="Account" name="setFAid">
-      <column comment="" key="false" length="18" name="Id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="18" name="Id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="FieldAwareID__c" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" label="passthru" name="passthru">
@@ -661,7 +661,7 @@
       <column key="false" length="0" name="extID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="setFAid" expressionFilter="row3.UUID != null" activateExpressionFilter="true">
         <mapperTableEntries name="Id" expression="row3.extID " type="id_String"/>
@@ -788,11 +788,11 @@
       <column comment="" key="false" length="32" name="FieldAwareID__c" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="MAIN" label="Account" name="MAIN">
-      <column comment="" key="false" length="18" name="Id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column key="true" length="18" name="Id" nullable="false" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="FieldAwareID__c" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="Account" name="REJECT">
-      <column comment="" key="false" length="18" name="Id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column key="true" length="18" name="Id" nullable="false" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="32" name="FieldAwareID__c" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorFields" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>

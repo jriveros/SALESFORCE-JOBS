@@ -1,0 +1,108 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>createContact=>customer_ref" expression="(String)globalMap.get(&quot;customerRef&quot;)">
+  <variables name="row2.Id" value="null" talendType="id_String"/>
+  <variables name="row2.IsDeleted" value="false" talendType="id_Boolean"/>
+  <variables name="row2.MasterRecordId" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.AccountId" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.LastName" value="null" talendType="id_String"/>
+  <variables name="row2.FirstName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Salutation" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Name" value="null" talendType="id_String"/>
+  <variables name="row2.OtherStreet" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OtherCity" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OtherState" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OtherPostalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OtherCountry" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.MailingStreet" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.MailingCity" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.MailingState" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.MailingPostalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.MailingCountry" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Phone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Fax" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.MobilePhone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.HomePhone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OtherPhone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.AssistantPhone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.ReportsToId" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Email" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Title" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Department" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.AssistantName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.LeadSource" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Birthdate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.Description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OwnerId" value="null" talendType="id_String"/>
+  <variables name="row2.HasOptedOutOfEmail" value="false" talendType="id_Boolean"/>
+  <variables name="row2.CreatedDate" value="null" talendType="id_Date"/>
+  <variables name="row2.CreatedById" value="null" talendType="id_String"/>
+  <variables name="row2.LastModifiedDate" value="null" talendType="id_Date"/>
+  <variables name="row2.LastModifiedById" value="null" talendType="id_String"/>
+  <variables name="row2.SystemModstamp" value="null" talendType="id_Date"/>
+  <variables name="row2.LastActivityDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.LastCURequestDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.LastCUUpdateDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.EmailBouncedReason" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.EmailBouncedDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.Jigsaw" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.JigsawContactId" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Inferred_City__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Inferred_Company__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Inferred_Country__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Inferred_Metropolitan_Area__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Inferred_Phone_Area_Code__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Inferred_Postal_Code__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Inferred_State_Region__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Lead_Score__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.mkto2__Original_Referrer__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Original_Search_Engine__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Original_Search_Phrase__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Original_Source_Info__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto2__Original_Source_Type__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.qbdialer__Dials__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.datahugapps__Activity_Level__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Family__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.qbdialer__LastCallTime__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.qbdialer__ResponseTime__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.datahugapps__HugRank__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.datahugapps__LastDatahugSyncDate__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__LastInteractedDate__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__LastInteraction__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__Last_Inbound_Interaction__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__Last_Outbound_Interaction__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__Next_Meeting__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__NumberOfColleagues__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.mkto_si__HideDate__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.mkto_si__Last_Interesting_Moment_Date__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.mkto_si__Last_Interesting_Moment_Desc__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto_si__Last_Interesting_Moment_Source__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto_si__Last_Interesting_Moment_Type__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto_si__Last_Interesting_Moment__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto_si__Priority__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.mkto_si__Relative_Score_Value__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.mkto_si__Relative_Score__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto_si__Sales_Insight__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto_si__Urgency_Value__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.mkto_si__Urgency__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.mkto_si__View_in_Marketo__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.datahugapps__LastInboundInteraction__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__LastOutboundInteraction__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__NextMeeting__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__BCC__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.Comfort_Navigating_FA_FL__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.Survey_Date__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.OB_Improvement_Recommendations__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.OB_Length_of_Time_Rating__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.Overall_OB_Experience_Rating__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.Satisfied_With_Knowledge_of_OB_Engineer__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.Understood_4_Stage_Implementation_Plan__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.Willingness_to_Refer_FA_FL__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.datahugapps__FER__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__FES__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__LESB__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.datahugapps__LM__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row2.datahugapps__NOM__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.datahugapps__NORE__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.datahugapps__NOSE__c" value="null" talendType="id_Double" nullable="true"/>
+  <variables name="row2.FieldAwareID__c" value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>

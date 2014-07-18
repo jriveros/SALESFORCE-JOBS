@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>Var=>var1" expression="Numeric.sequence(&quot;s1&quot;,1,1)">
+  <variables name="row5.customer_ref" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.url" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.UUID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.streetName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.locality" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.region" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.postcode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.country" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.isBilling" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.type" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.taxGroup" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.taxName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="Numeric.sequence(&quot;linenumber&quot;,1,1)" value="0" talendType="id_Integer"/>
+</expression:EMFExpression>
