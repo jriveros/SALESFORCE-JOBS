@@ -40,7 +40,6 @@
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
     <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
     <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
@@ -74,6 +73,8 @@
     <elementParameter field="TEXT" name="TIMEOUT" value="context.Salesforce_TimeOut"/>
     <elementParameter field="CLOSED_LIST" name="MODULENAME" value="Task"/>
     <elementParameter field="TEXT" name="CUSTOM_MODULE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_oNOSoMDpEeOOaqNtHRdzpA - Task"/>
     <elementParameter field="TEXT" name="CONDITION" value="&quot;WhatId = '&quot;  + (String)globalMap.get(&quot;sfCaseId&quot;) + &quot;'&quot;"/>
     <elementParameter field="CHECK" name="MANUAL_QUERY" value="false"/>
     <elementParameter field="MEMO" name="QUERY" value="&quot;select FirstName, LastName from Contact&quot;"/>
@@ -94,42 +95,55 @@
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-    <metadata connector="FLOW" name="tSalesforceInput_1">
-      <column defaultValue="" key="true" length="18" name="Id" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="18" name="WhoId" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="18" name="WhatId" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="80" name="Subject" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="ActivityDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="40" name="Status" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="40" name="Priority" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="18" name="OwnerId" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="32000" name="Description" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="IsDeleted" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="18" name="AccountId" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="IsClosed" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="CreatedDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="18" name="CreatedById" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="LastModifiedDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="18" name="LastModifiedById" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="SystemModstamp" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="IsArchived" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="CallDurationInSeconds" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="40" name="CallType" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="CallDisposition" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="CallObject" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="ReminderDateTime" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="IsReminderSet" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="18" name="RecurrenceActivityId" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="IsRecurrence" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="RecurrenceStartDateOnly" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="RecurrenceEndDateOnly" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="40" name="RecurrenceTimeZoneSidKey" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="40" name="RecurrenceType" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="RecurrenceInterval" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="RecurrenceDayOfWeekMask" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="RecurrenceDayOfMonth" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="40" name="RecurrenceInstance" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="40" name="RecurrenceMonthOfYear" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" label="Task" name="tSalesforceInput_1">
+      <column comment="" key="false" length="18" name="Id" nullable="false" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="WhoId" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="WhatId" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Subject" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="ActivityDate" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Status" nullable="false" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Priority" nullable="false" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="OwnerId" nullable="false" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32000" name="Description" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Type" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="IsDeleted" nullable="false" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="AccountId" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="IsClosed" nullable="false" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="CreatedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="CreatedById" nullable="false" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="LastModifiedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="LastModifiedById" nullable="false" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="SystemModstamp" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="IsArchived" nullable="false" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="CallDurationInSeconds" nullable="true" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="CallType" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CallDisposition" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CallObject" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="ReminderDateTime" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="IsReminderSet" nullable="false" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="RecurrenceActivityId" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="IsRecurrence" nullable="false" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="RecurrenceStartDateOnly" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="RecurrenceEndDateOnly" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="RecurrenceTimeZoneSidKey" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="RecurrenceType" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="RecurrenceInterval" nullable="true" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="RecurrenceDayOfWeekMask" nullable="true" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="RecurrenceDayOfMonth" nullable="true" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="RecurrenceInstance" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="RecurrenceMonthOfYear" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="qbdialer__CallRecordingURL__c" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="qbdialer__Call_Date_Time__c" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="qbdialer__Call_Dial_Number__c" nullable="true" precision="0" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="qbdialer__Call_Hour__c" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="qbdialer__Call_Lead_Status__c" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="qbdialer__Call_Ring_Time__c" nullable="true" precision="0" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="qbdialer__Call_Time_Zone__c" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="qbdialer__Callback_Date_Time__c" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="qbdialer__ImpressionId__c" nullable="true" precision="0" type="id_Double" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="qbdialer__SMSReminder__c" nullable="false" precision="0" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Comments_Shortened__c" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="32" name="FieldAwareID__c" nullable="true" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="160">
@@ -151,23 +165,23 @@
       <column key="false" length="18" name="WhoId" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" name="tc2">
-      <column defaultValue="" key="false" length="0" name="extID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="task_ref" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="name" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="description" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="extID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="task_ref" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="name" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="description" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="mandatory" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="estDuration" nullable="true" precision="0" sourceType="" type="id_Long" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="unitCost" nullable="true" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="unitPrice" nullable="true" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="markupType" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="markupType" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="markupValue" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="taxable" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="glAccount" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="taxName1" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="taxName2" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="taxGroup1" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="taxGroup2" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="task_json" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="glAccount" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="taxName1" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="taxName2" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="taxGroup1" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="taxGroup2" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="task_json" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
       <uiProperties shellMaximized="true"/>
@@ -178,7 +192,7 @@
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="tc2">
         <mapperTableEntries name="extID" expression="row1.Id " type="id_String" nullable="true"/>
-        <mapperTableEntries name="task_ref" type="id_String" nullable="true"/>
+        <mapperTableEntries name="task_ref" expression="row1.FieldAwareID__c " type="id_String" nullable="true"/>
         <mapperTableEntries name="name" expression="row1.Subject " type="id_String" nullable="true"/>
         <mapperTableEntries name="description" expression="row1.Description" type="id_String" nullable="true"/>
         <mapperTableEntries name="mandatory" type="id_Boolean" nullable="true"/>
@@ -196,32 +210,33 @@
         <mapperTableEntries name="task_json" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="Id" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Id" type="id_String"/>
         <mapperTableEntries name="WhoId" type="id_String" nullable="true"/>
         <mapperTableEntries name="WhatId" type="id_String" nullable="true"/>
         <mapperTableEntries name="Subject" type="id_String" nullable="true"/>
         <mapperTableEntries name="ActivityDate" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="Status" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Priority" type="id_String" nullable="true"/>
-        <mapperTableEntries name="OwnerId" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Status" type="id_String"/>
+        <mapperTableEntries name="Priority" type="id_String"/>
+        <mapperTableEntries name="OwnerId" type="id_String"/>
         <mapperTableEntries name="Description" type="id_String" nullable="true"/>
-        <mapperTableEntries name="IsDeleted" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="Type" type="id_String" nullable="true"/>
+        <mapperTableEntries name="IsDeleted" type="id_Boolean"/>
         <mapperTableEntries name="AccountId" type="id_String" nullable="true"/>
-        <mapperTableEntries name="IsClosed" type="id_Boolean" nullable="true"/>
-        <mapperTableEntries name="CreatedDate" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="CreatedById" type="id_String" nullable="true"/>
-        <mapperTableEntries name="LastModifiedDate" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="LastModifiedById" type="id_String" nullable="true"/>
-        <mapperTableEntries name="SystemModstamp" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="IsArchived" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="IsClosed" type="id_Boolean"/>
+        <mapperTableEntries name="CreatedDate" type="id_Date"/>
+        <mapperTableEntries name="CreatedById" type="id_String"/>
+        <mapperTableEntries name="LastModifiedDate" type="id_Date"/>
+        <mapperTableEntries name="LastModifiedById" type="id_String"/>
+        <mapperTableEntries name="SystemModstamp" type="id_Date"/>
+        <mapperTableEntries name="IsArchived" type="id_Boolean"/>
         <mapperTableEntries name="CallDurationInSeconds" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="CallType" type="id_String" nullable="true"/>
         <mapperTableEntries name="CallDisposition" type="id_String" nullable="true"/>
         <mapperTableEntries name="CallObject" type="id_String" nullable="true"/>
         <mapperTableEntries name="ReminderDateTime" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="IsReminderSet" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="IsReminderSet" type="id_Boolean"/>
         <mapperTableEntries name="RecurrenceActivityId" type="id_String" nullable="true"/>
-        <mapperTableEntries name="IsRecurrence" type="id_Boolean" nullable="true"/>
+        <mapperTableEntries name="IsRecurrence" type="id_Boolean"/>
         <mapperTableEntries name="RecurrenceStartDateOnly" type="id_Date" nullable="true"/>
         <mapperTableEntries name="RecurrenceEndDateOnly" type="id_Date" nullable="true"/>
         <mapperTableEntries name="RecurrenceTimeZoneSidKey" type="id_String" nullable="true"/>
@@ -231,6 +246,18 @@
         <mapperTableEntries name="RecurrenceDayOfMonth" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="RecurrenceInstance" type="id_String" nullable="true"/>
         <mapperTableEntries name="RecurrenceMonthOfYear" type="id_String" nullable="true"/>
+        <mapperTableEntries name="qbdialer__CallRecordingURL__c" type="id_String" nullable="true"/>
+        <mapperTableEntries name="qbdialer__Call_Date_Time__c" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="qbdialer__Call_Dial_Number__c" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="qbdialer__Call_Hour__c" type="id_String" nullable="true"/>
+        <mapperTableEntries name="qbdialer__Call_Lead_Status__c" type="id_String" nullable="true"/>
+        <mapperTableEntries name="qbdialer__Call_Ring_Time__c" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="qbdialer__Call_Time_Zone__c" type="id_String" nullable="true"/>
+        <mapperTableEntries name="qbdialer__Callback_Date_Time__c" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="qbdialer__ImpressionId__c" type="id_Double" nullable="true"/>
+        <mapperTableEntries name="qbdialer__SMSReminder__c" type="id_Boolean"/>
+        <mapperTableEntries name="Comments_Shortened__c" type="id_String" nullable="true"/>
+        <mapperTableEntries name="FieldAwareID__c" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -296,9 +323,9 @@
       <column defaultValue="" key="false" length="0" name="task_json" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="RESPONSE" name="RESPONSE">
-      <column defaultValue="" key="false" length="0" name="RESPONSE" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="UUID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="extID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="RESPONSE" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="UUID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="0" name="extID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="ERROR" name="ERROR">
       <column defaultValue="" key="false" length="0" name="errorCode" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
@@ -498,7 +525,7 @@
       <column key="false" length="0" name="value" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="key_value" expressionFilter="&quot;extID&quot;.equals(row4.name)" activateExpressionFilter="true">
         <mapperTableEntries name="key" expression="row4.entityClass + &quot;_extID&quot; " type="id_String" nullable="true"/>
