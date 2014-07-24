@@ -6,10 +6,10 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yem5YxDlEeSKnJOZAxVhOg" name="Id" id="40193" label="Id" length="18" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
         <initialValue xmi:id="_Yem5ZBDlEeSKnJOZAxVhOg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yem5ZRDlEeSKnJOZAxVhOg" name="IsDeleted" id="40194" label="IsDeleted" length="1" sourceType="BIT" talendType="id_Boolean" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yem5ZRDlEeSKnJOZAxVhOg" name="IsDeleted" id="40194" label="IsDeleted" length="1" sourceType="BIT" talendType="id_Boolean">
         <initialValue xmi:id="_Yem5ZhDlEeSKnJOZAxVhOg" body=""/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yem5ZxDlEeSKnJOZAxVhOg" name="CaseNumber" id="40195" label="CaseNumber" length="30" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yem5ZxDlEeSKnJOZAxVhOg" name="CaseNumber" id="40195" label="CaseNumber" length="30" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_Yem5aBDlEeSKnJOZAxVhOg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Yem5aRDlEeSKnJOZAxVhOg" name="ContactId" id="40196" label="ContactId" length="18" sourceType="VARCHAR" talendType="id_String">
@@ -51,25 +51,25 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengdBDlEeSKnJOZAxVhOg" name="Description" id="40208" label="Description" length="1024" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_YengdRDlEeSKnJOZAxVhOg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengdhDlEeSKnJOZAxVhOg" name="IsClosed" id="40209" label="IsClosed" length="1" sourceType="BIT" talendType="id_Boolean" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengdhDlEeSKnJOZAxVhOg" name="IsClosed" id="40209" label="IsClosed" length="1" sourceType="BIT" talendType="id_Boolean">
         <initialValue xmi:id="_YengdxDlEeSKnJOZAxVhOg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengeBDlEeSKnJOZAxVhOg" name="ClosedDate" id="40210" label="ClosedDate" length="20" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;">
         <initialValue xmi:id="_YengeRDlEeSKnJOZAxVhOg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengehDlEeSKnJOZAxVhOg" name="OwnerId" id="40211" label="OwnerId" length="18" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengehDlEeSKnJOZAxVhOg" name="OwnerId" id="40211" label="OwnerId" length="18" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_YengexDlEeSKnJOZAxVhOg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengfBDlEeSKnJOZAxVhOg" name="CreatedDate" id="40212" label="CreatedDate" length="20" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengfBDlEeSKnJOZAxVhOg" name="CreatedDate" id="40212" label="CreatedDate" length="20" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;">
         <initialValue xmi:id="_YengfRDlEeSKnJOZAxVhOg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengfhDlEeSKnJOZAxVhOg" name="CreatedById" id="40213" label="CreatedById" length="18" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengfhDlEeSKnJOZAxVhOg" name="CreatedById" id="40213" label="CreatedById" length="18" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_YengfxDlEeSKnJOZAxVhOg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YenggBDlEeSKnJOZAxVhOg" name="LastModifiedDate" id="40214" label="LastModifiedDate" length="20" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YenggBDlEeSKnJOZAxVhOg" name="LastModifiedDate" id="40214" label="LastModifiedDate" length="20" sourceType="DATETIME" talendType="id_Date" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;">
         <initialValue xmi:id="_YenggRDlEeSKnJOZAxVhOg"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengghDlEeSKnJOZAxVhOg" name="LastModifiedById" id="40215" label="LastModifiedById" length="18" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YengghDlEeSKnJOZAxVhOg" name="LastModifiedById" id="40215" label="LastModifiedById" length="18" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_YenggxDlEeSKnJOZAxVhOg"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YenghBDlEeSKnJOZAxVhOg" name="AccountTimeZone__c" id="40216" label="AccountTimeZone__c" length="1300" sourceType="VARCHAR" talendType="id_String">

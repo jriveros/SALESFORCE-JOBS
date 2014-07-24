@@ -1,5 +1,36 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>Var=>var1" expression="row2.uuid?&quot;&quot;:&quot;&quot;">
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="null=>Var=>var1" expression="(row7.FieldAwareID == null || StringHandling.TRIM(row7.FieldAwareID).length() == 0 || row7.FieldAwareID.isEmpty())?null:row7.FieldAwareID">
+  <variables name="row7.Id" value="null" talendType="id_String"/>
+  <variables name="row7.IsDeleted" value="false" talendType="id_Boolean"/>
+  <variables name="row7.CaseNumber" value="null" talendType="id_String"/>
+  <variables name="row7.ContactId" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.AccountId" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.SuppliedName" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.SuppliedEmail" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.SuppliedPhone" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.SuppliedCompany" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.Type" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.Status" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.Reason" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.Origin" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.Subject" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.Priority" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.Description" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.IsClosed" value="false" talendType="id_Boolean"/>
+  <variables name="row7.ClosedDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row7.OwnerId" value="null" talendType="id_String"/>
+  <variables name="row7.CreatedDate" value="null" talendType="id_Date"/>
+  <variables name="row7.CreatedById" value="null" talendType="id_String"/>
+  <variables name="row7.LastModifiedDate" value="null" talendType="id_Date"/>
+  <variables name="row7.LastModifiedById" value="null" talendType="id_String"/>
+  <variables name="row7.AccountTimeZone__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.Customer_Priority__c" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.ScheduledOn__c" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row7.FieldAwareID" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.contact_ref" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.customer_ref" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row7.location_ref" value="null" talendType="id_String" nullable="true"/>
+  <variables value="null" talendType="id_String"/>
   <variables name="row1.Id" value="null" talendType="id_String"/>
   <variables name="row1.IsDeleted" value="false" talendType="id_Boolean"/>
   <variables name="row1.CaseNumber" value="null" talendType="id_String"/>

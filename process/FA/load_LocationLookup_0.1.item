@@ -63,7 +63,7 @@
     <elementParameter field="CLOSED_LIST" name="FILE_FORMAT" value="PROPERTIES_FORMAT"/>
     <elementParameter field="CLOSED_LIST" name="RETRIVE_MODE" value="RETRIVE_BY_SECTION"/>
     <elementParameter field="TEXT" name="SECTION_NAME" value="&quot;section&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/talendProjects/fieldaware.properties&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/ubuntu/fieldaware.properties&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="LABEL" value="FieldAware Properties"/>

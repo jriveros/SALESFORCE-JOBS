@@ -61,7 +61,7 @@
     <elementParameter field="CLOSED_LIST" name="FILE_FORMAT" value="PROPERTIES_FORMAT"/>
     <elementParameter field="CLOSED_LIST" name="RETRIVE_MODE" value="RETRIVE_BY_SECTION"/>
     <elementParameter field="TEXT" name="SECTION_NAME" value="&quot;section&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/talendProjects/fieldaware.properties&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/ubuntu/fieldaware.properties&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="LABEL" value="FieldAware Properties"/>
@@ -121,7 +121,7 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
   </node>
-  <node componentName="tFAInputList" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
+  <node componentName="tFAInputList" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFAInputList_1"/>
     <elementParameter field="CHECK" name="SUBTREE_START" value="false"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="false"/>
@@ -304,7 +304,7 @@
       <column key="false" length="32" name="location_uuid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="120" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="custDetails" expressionFilter="row4.account != null" activateExpressionFilter="true">
         <mapperTableEntries name="uuid" expression="row4.uuid " type="id_String" nullable="true"/>
