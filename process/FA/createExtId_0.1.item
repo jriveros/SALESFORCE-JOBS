@@ -36,15 +36,15 @@
     <routinesParameter id="_PP434AehEeSYaPiRNeC7lQ" name="TalendDate"/>
     <routinesParameter id="_PP--gAehEeSYaPiRNeC7lQ" name="TalendString"/>
   </parameters>
-  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFixedFlowInput_1"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_qa3tYAefEeS-rdja2so9og - metadata"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="false"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="extID"/>
+      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="entityClass"/>
       <elementValue elementRef="VALUE" value=""/>
@@ -68,6 +68,7 @@
     <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
     <elementParameter field="TABLE" name="INTABLE">
       <elementValue elementRef="extID" value=""/>
+      <elementValue elementRef="key" value="&quot;extID&quot;"/>
       <elementValue elementRef="entityClass" value="&quot;Contact&quot;"/>
       <elementValue elementRef="type" value="&quot;Text&quot;"/>
       <elementValue elementRef="name" value="&quot;extID&quot;"/>
@@ -78,6 +79,7 @@
       <elementValue elementRef="displayOnInvoice" value=""/>
       <elementValue elementRef="cf_json" value=""/>
       <elementValue elementRef="extID" value=""/>
+      <elementValue elementRef="key" value="&quot;extID&quot;"/>
       <elementValue elementRef="entityClass" value="&quot;Job&quot;"/>
       <elementValue elementRef="type" value="&quot;Text&quot;"/>
       <elementValue elementRef="name" value="&quot;extID&quot;"/>
@@ -88,6 +90,7 @@
       <elementValue elementRef="displayOnInvoice" value=""/>
       <elementValue elementRef="cf_json" value=""/>
       <elementValue elementRef="extID" value=""/>
+      <elementValue elementRef="key" value="&quot;extID&quot;"/>
       <elementValue elementRef="entityClass" value="&quot;Asset&quot;"/>
       <elementValue elementRef="type" value="&quot;Text&quot;"/>
       <elementValue elementRef="name" value="&quot;extID&quot;"/>
@@ -98,6 +101,7 @@
       <elementValue elementRef="displayOnInvoice" value=""/>
       <elementValue elementRef="cf_json" value=""/>
       <elementValue elementRef="extID" value=""/>
+      <elementValue elementRef="key" value="&quot;extID&quot;"/>
       <elementValue elementRef="entityClass" value="&quot;Task&quot;"/>
       <elementValue elementRef="type" value="&quot;Text&quot;"/>
       <elementValue elementRef="name" value="&quot;extID&quot;"/>
@@ -108,6 +112,7 @@
       <elementValue elementRef="displayOnInvoice" value=""/>
       <elementValue elementRef="cf_json" value=""/>
       <elementValue elementRef="extID" value=""/>
+      <elementValue elementRef="key" value="&quot;extID&quot;"/>
       <elementValue elementRef="entityClass" value="&quot;Item&quot;"/>
       <elementValue elementRef="type" value="&quot;Text&quot;"/>
       <elementValue elementRef="name" value="&quot;extID&quot;"/>
@@ -118,6 +123,7 @@
       <elementValue elementRef="displayOnInvoice" value=""/>
       <elementValue elementRef="cf_json" value=""/>
       <elementValue elementRef="extID" value=""/>
+      <elementValue elementRef="key" value="&quot;extID&quot;"/>
       <elementValue elementRef="entityClass" value="&quot;Invoice&quot;"/>
       <elementValue elementRef="type" value="&quot;Text&quot;"/>
       <elementValue elementRef="name" value="&quot;extID&quot;"/>
@@ -136,20 +142,21 @@
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-    <metadata connector="FLOW" label="metadata" name="tFixedFlowInput_1">
-      <column key="false" length="0" name="extID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="0" name="entityClass" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="0" name="type" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="0" name="name" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="0" name="defaultValue" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="0" name="options" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column key="false" length="0" name="syncable" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_1">
+      <column defaultValue="" key="false" length="0" name="extID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="key" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="entityClass" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="type" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="name" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="defaultValue" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="options" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="syncable" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="readonlyOnDevice" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="displayOnInvoice" nullable="true" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
-      <column key="false" length="0" name="cf_json" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="cf_json" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFAOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
+  <node componentName="tFAOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFAOutput_1"/>
     <elementParameter field="CHECK" name="SUBTREE_START" value="false"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="false"/>
@@ -164,6 +171,7 @@
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" name="tFAOutput_1">
       <column defaultValue="" key="false" length="0" name="extID" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="key" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="entityClass" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="type" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="name" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -294,6 +302,9 @@
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
       <elementValue elementRef="TRACE_COLUMN" value="extID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="key"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
       <elementValue elementRef="TRACE_COLUMN" value="entityClass"/>
